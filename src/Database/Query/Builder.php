@@ -31,7 +31,7 @@ class Builder extends BaseBuilder
     /**
      * Perform compiled from builder sql query and getting result.
      *
-     * @throws \Tinderbox\Clickhouse\Exceptions\ClientException
+     * @throws \ItStably\Clickhouse\Exceptions\ClientException
      *
      * @return Collection
      */
@@ -52,7 +52,7 @@ class Builder extends BaseBuilder
      *
      * @param string $column Column to pass into count() aggregate function
      *
-     * @throws \Tinderbox\Clickhouse\Exceptions\ClientException
+     * @throws \ItStably\Clickhouse\Exceptions\ClientException
      *
      * @return int
      */
@@ -71,7 +71,7 @@ class Builder extends BaseBuilder
     /**
      * Perform query and get first row.
      *
-     * @throws \Tinderbox\Clickhouse\Exceptions\ClientException
+     * @throws \ItStably\Clickhouse\Exceptions\ClientException
      *
      * @return mixed|null
      */
@@ -98,7 +98,7 @@ class Builder extends BaseBuilder
      * @param string $format
      * @param int $concurrency
      *
-     * @throws \Tinderbox\Clickhouse\Exceptions\ClientException
+     * @throws \ItStably\Clickhouse\Exceptions\ClientException
      *
      * @return array
      */

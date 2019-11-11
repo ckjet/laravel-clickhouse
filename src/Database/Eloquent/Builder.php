@@ -261,7 +261,7 @@ class Builder
      * Execute the query as a "select" statement.
      *
      * @return Collection|static[]
-     * @throws \Tinderbox\Clickhouse\Exceptions\ClientException
+     * @throws \ItStably\Clickhouse\Exceptions\ClientException
      */
     public function get()
     {
@@ -281,7 +281,7 @@ class Builder
      * Get the hydrated models without eager loading.
      *
      * @return Model[]
-     * @throws \Tinderbox\Clickhouse\Exceptions\ClientException
+     * @throws \ItStably\Clickhouse\Exceptions\ClientException
      */
     public function getModels(): array
     {
