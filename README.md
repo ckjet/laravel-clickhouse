@@ -8,12 +8,12 @@ Eloquent model for ClickHouse
 
 ## Installation
 ```sh
-$ composer require ckjet/laravel-clickhouse
+$ composer require itstably/laravel-clickhouse
 ```
 
 Then add the code above into your config/app.php file providers section
 ```php
-Ckjet\LaravelClickHouse\ClickHouseServiceProvider::class,
+ItStably\LaravelClickHouse\ClickHouseServiceProvider::class,
 ```
 And add new connection into your config/database.php file. Something like this:
 ```php
@@ -69,7 +69,7 @@ Then create model
 ```php
 <?php
 
-use Ckjet\LaravelClickHouse\Database\Eloquent\Model;
+use ItStably\LaravelClickHouse\Database\Eloquent\Model;
 
 class Payment extends Model
 {

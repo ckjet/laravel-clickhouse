@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests\Unit\Database\Eloquent;
+namespace ItStably\LaravelClickHouse\Tests\Unit\Database\Eloquent;
 
 use Mockery\Mock;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\DatabaseManager;
-use Tinderbox\ClickhouseBuilder\Query\Tuple;
-use Ckjet\LaravelClickHouse\Tests\Helpers;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Tinderbox\ClickhouseBuilder\Query\Identifier;
-use Ckjet\LaravelClickHouse\Database\Connection;
-use Tinderbox\ClickhouseBuilder\Query\Enums\Operator;
+use ItStably\ClickhouseBuilder\Query\Tuple;
+use ItStably\LaravelClickHouse\Tests\Helpers;
+use ItStably\ClickhouseBuilder\Query\Grammar;
+use ItStably\ClickhouseBuilder\Query\Identifier;
+use ItStably\LaravelClickHouse\Database\Connection;
+use ItStably\ClickhouseBuilder\Query\Enums\Operator;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Ckjet\LaravelClickHouse\Database\Eloquent\Builder;
-use Ckjet\LaravelClickHouse\Database\Eloquent\Collection;
-use Ckjet\LaravelClickHouse\Tests\EloquentModelCastingTest;
-use Tinderbox\ClickhouseBuilder\Query\TwoElementsLogicExpression;
-use Ckjet\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
+use ItStably\LaravelClickHouse\Database\Eloquent\Builder;
+use ItStably\LaravelClickHouse\Database\Eloquent\Collection;
+use ItStably\LaravelClickHouse\Tests\EloquentModelCastingTest;
+use ItStably\ClickhouseBuilder\Query\TwoElementsLogicExpression;
+use ItStably\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
 
 /**
  * @property Mock|Connection connection

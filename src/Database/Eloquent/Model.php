@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Database\Eloquent;
+namespace ItStably\LaravelClickHouse\Database\Eloquent;
 
 use ArrayAccess;
 use JsonSerializable;
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Contracts\Support\Arrayable;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Ckjet\LaravelClickHouse\Database\Connection;
+use ItStably\ClickhouseBuilder\Query\Grammar;
+use ItStably\LaravelClickHouse\Database\Connection;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Database\Eloquent\Concerns\HasEvents;
 use Illuminate\Database\Eloquent\JsonEncodingException;
@@ -19,7 +19,7 @@ use Illuminate\Database\Eloquent\Concerns\HidesAttributes;
 use Illuminate\Database\Eloquent\Concerns\GuardsAttributes;
 use Illuminate\Database\Eloquent\Concerns\HasRelationships;
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
-use Ckjet\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
+use ItStably\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
 
 /**
  * @mixin \Eloquent

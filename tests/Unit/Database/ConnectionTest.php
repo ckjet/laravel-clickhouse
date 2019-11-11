@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests\Database;
+namespace ItStably\LaravelClickHouse\Tests\Database;
 
 use PHPUnit\Framework\TestCase;
-use Ckjet\LaravelClickHouse\Database\Connection;
-use Ckjet\LaravelClickHouse\Database\Query\Builder;
+use ItStably\LaravelClickHouse\Database\Connection;
+use ItStably\LaravelClickHouse\Database\Query\Builder;
 
 class ConnectionTest extends TestCase
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests\Unit\Database\Eloquent;
+namespace ItStably\LaravelClickHouse\Tests\Unit\Database\Eloquent;
 
 use Mockery\Mock;
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\DatabaseManager;
-use Ckjet\LaravelClickHouse\Tests\Helpers;
-use Ckjet\LaravelClickHouse\Database\Connection;
-use Ckjet\LaravelClickHouse\Database\Eloquent\Collection;
-use Ckjet\LaravelClickHouse\Tests\EloquentModelCastingTest;
+use ItStably\LaravelClickHouse\Tests\Helpers;
+use ItStably\LaravelClickHouse\Database\Connection;
+use ItStably\LaravelClickHouse\Database\Eloquent\Collection;
+use ItStably\LaravelClickHouse\Tests\EloquentModelCastingTest;
 
 /**
  * @property Mock|Connection connection

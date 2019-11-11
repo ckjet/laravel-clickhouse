@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests\Unit\Database\Query;
+namespace ItStably\LaravelClickHouse\Tests\Unit\Database\Query;
 
 use PHPUnit\Framework\TestCase;
-use Ckjet\LaravelClickHouse\Tests\Helpers;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Ckjet\LaravelClickHouse\Database\Connection;
-use Tinderbox\ClickhouseBuilder\Query\Enums\Format;
-use Ckjet\LaravelClickHouse\Database\Query\Builder;
+use ItStably\LaravelClickHouse\Tests\Helpers;
+use ItStably\ClickhouseBuilder\Query\Grammar;
+use ItStably\LaravelClickHouse\Database\Connection;
+use ItStably\ClickhouseBuilder\Query\Enums\Format;
+use ItStably\LaravelClickHouse\Database\Query\Builder;
 
 /**
  * @property \Mockery\MockInterface|Connection connection

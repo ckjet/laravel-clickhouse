@@ -1,6 +1,6 @@
 <?php
 
-namespace Ckjet\LaravelClickHouse\Database\Eloquent;
+namespace ItStably\LaravelClickHouse\Database\Eloquent;
 
 use Closure;
 use BadMethodCallException;
@@ -12,7 +12,7 @@ use Illuminate\Database\Concerns\BuildsQueries;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\RelationNotFoundException;
-use Ckjet\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
+use ItStably\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
 
 /**
  * @mixin QueryBuilder

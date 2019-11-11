@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse;
+namespace ItStably\LaravelClickHouse;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\DatabaseManager;
-use Ckjet\LaravelClickHouse\Database\Connection;
-use Ckjet\LaravelClickHouse\Database\Eloquent\Model;
+use ItStably\LaravelClickHouse\Database\Connection;
+use ItStably\LaravelClickHouse\Database\Eloquent\Model;
 
 class ClickHouseServiceProvider extends ServiceProvider
 {

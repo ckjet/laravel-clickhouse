@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests;
+namespace ItStably\LaravelClickHouse\Tests;
 
-use Ckjet\LaravelClickHouse\Database\Eloquent\Model;
+use ItStably\LaravelClickHouse\Database\Eloquent\Model;
 
 /**
  * @property int id

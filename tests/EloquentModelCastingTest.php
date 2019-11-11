@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests;
+namespace ItStably\LaravelClickHouse\Tests;
 
 class EloquentModelCastingTest extends EloquentModelTest
 {

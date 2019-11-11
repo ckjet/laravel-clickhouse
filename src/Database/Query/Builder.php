@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Database\Query;
+namespace ItStably\LaravelClickHouse\Database\Query;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Tinderbox\Clickhouse\Common\Format;
+use ItStably\Clickhouse\Common\Format;
 use Illuminate\Support\Traits\Macroable;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Tinderbox\ClickhouseBuilder\Query\BaseBuilder;
-use Ckjet\LaravelClickHouse\Database\Connection;
+use ItStably\ClickhouseBuilder\Query\Grammar;
+use ItStably\ClickhouseBuilder\Query\BaseBuilder;
+use ItStably\LaravelClickHouse\Database\Connection;
 
 class Builder extends BaseBuilder
 {

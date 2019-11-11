@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Ckjet\LaravelClickHouse\Tests\Unit\Database\Eloquent;
+namespace ItStably\LaravelClickHouse\Tests\Unit\Database\Eloquent;
 
 use Illuminate\Support\Carbon;
 use PHPUnit\Framework\TestCase;
-use Ckjet\LaravelClickHouse\Tests\Helpers;
-use Ckjet\LaravelClickHouse\Tests\EloquentModelTest;
+use ItStably\LaravelClickHouse\Tests\Helpers;
+use ItStably\LaravelClickHouse\Tests\EloquentModelTest;
 use Illuminate\Database\Eloquent\MassAssignmentException;
-use Ckjet\LaravelClickHouse\Tests\EloquentModelWithTest;
-use Ckjet\LaravelClickHouse\Tests\EloquentModelCastingTest;
+use ItStably\LaravelClickHouse\Tests\EloquentModelWithTest;
+use ItStably\LaravelClickHouse\Tests\EloquentModelCastingTest;
 
 class ModelTest extends TestCase
 {
