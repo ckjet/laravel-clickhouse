@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Esazykin\LaravelClickHouse\Tests;
+namespace Ckjet\LaravelClickHouse\Tests;
 
 use Mockery\MockInterface;
-use Esazykin\LaravelClickHouse\Database\Eloquent\Builder;
+use Ckjet\LaravelClickHouse\Database\Eloquent\Builder;
 
 class EloquentModelWithTest extends EloquentModelTest
 {

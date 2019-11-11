@@ -11,12 +11,12 @@ Eloquent model for ClickHouse
 
 ## Installation
 ```sh
-$ composer require esazykin/laravel-clickhouse
+$ composer require ckjet/laravel-clickhouse
 ```
 
 Then add the code above into your config/app.php file providers section
 ```php
-Esazykin\LaravelClickHouse\ClickHouseServiceProvider::class,
+Ckjet\LaravelClickHouse\ClickHouseServiceProvider::class,
 ```
 And add new connection into your config/database.php file. Something like this:
 ```php
@@ -72,7 +72,7 @@ Then create model
 ```php
 <?php
 
-use Esazykin\LaravelClickHouse\Database\Eloquent\Model;
+use Ckjet\LaravelClickHouse\Database\Eloquent\Model;
 
 class Payment extends Model
 {
