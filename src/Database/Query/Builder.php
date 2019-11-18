@@ -40,9 +40,6 @@ class Builder extends BaseBuilder
         if (!empty($this->async)) {
             $result = $this->connection->selectAsync($this->toAsyncSqls());
         } else {
-            if($this->toSql() !== 'SELECT count() FROM `instance_logs`') {
-                //dd($this->toSql());
-            }
             $result = $this->connection->select($this->toSql(), [], $this->getFiles());
         }
 
