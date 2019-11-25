@@ -960,4 +960,16 @@ class Builder
     {
         $this->query = clone $this->query;
     }
+
+    /**
+     * Add a generic "order by" clause if the query doesn't already have one.
+     *
+     * @return void
+     */
+    public function enforceOrderBy()
+    {
+        if (empty($this->model->orders) && empty($this->model->unionOrders)) {
+            $this->orderBy($this->getModel()->getQualifiedKeyName(), 'asc');
+        }
+    }
 }
