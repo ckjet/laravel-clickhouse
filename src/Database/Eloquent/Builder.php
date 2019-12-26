@@ -24,14 +24,14 @@ class Builder
     /**
      * The base query builder instance.
      *
-     * @var \Ckjet\LaravelClickHouse\Database\Query\Builder
+     * @var \ItStably\LaravelClickHouse\Database\Query\Builder
      */
     protected $query;
 
     /**
      * The model being queried.
      *
-     * @var \Ckjet\LaravelClickHouse\Database\Eloquent\Model
+     * @var \ItStably\LaravelClickHouse\Database\Eloquent\Model
      */
     protected $model;
 
